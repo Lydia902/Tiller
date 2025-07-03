@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: Tiller
+    database: sage-yeti-453214-v6
+    schema: Tiller
+    tables:
+      - name: orderl_line
+      - name: order_data
+      
