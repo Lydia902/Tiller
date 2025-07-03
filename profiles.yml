@@ -1,0 +1,10 @@
+your_project_name:
+  target: default
+  outputs:
+    default:
+      type: bigquery
+      method: service-account
+      project: sage-yeti-453214-v6
+      dataset: Tiller
+      location: EU
+      keyfile: /path/to/your/service_account.json
